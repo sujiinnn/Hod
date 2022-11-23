@@ -4,18 +4,25 @@
  */
 package javaapplication8;
 
+import javax.swing.JFrame;
+import javax.swing.*;
+
 /**
  *
  * @author sujin
  */
-public class JavaApplication8 {
+public class JavaApplication8 extends JFrame {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("호다다다다닫다ㅏㄷㄱ");
+    JavaApplication8() {
+        setTitle("호다닥 : 부산 재난 및 사건 안전 관리 시스템");
+
+        setSize(600, 450);
+
+        setVisible(true);
     }
-    
+
+    public static void main(String[] args) {
+        JavaApplication8 mf = new JavaApplication8();
+    }
+
 }
